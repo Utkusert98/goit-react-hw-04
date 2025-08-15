@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3646aa;
+  margin-bottom: 10px;
+}
+
+.formElem {
+  height: 7.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  background-color: white;
+  border: none;
+  padding: 6px 6px 6px 30px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.searchIcon {
+  color: #888;
+  font-size: 16px;
+}
+
+.iconButton {
+  position: absolute;
+  left: 5px;
+  top: 7px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.submitButton {
+  margin-left: 10px;
+  padding: 7px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #f5eeee;
+}

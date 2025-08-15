@@ -1,0 +1,30 @@
+.LoadMoreBtn {
+  padding: 12px 24px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 119, 255, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.3s ease;
+}
+
+.LoadMoreBtn:hover {
+  background-color: #005fdd;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 119, 255, 0.5);
+}
+
+.LoadMoreBtn:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 6px rgba(0, 119, 255, 0.4);
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 5px 0;
+}
